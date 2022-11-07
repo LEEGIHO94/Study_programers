@@ -10,11 +10,11 @@ class Outer{
     }
 
     class InClass {
-        int inNum = 10;
+        int inNum = 10;                                 //내부 클래스의 인스턴스 변수
 
         void Test() {
-            System.out.println("Outer num = " + num + "외부클래스의 인스턴스 변수");
-            System.out.println("Outer sNum = " + sNum + "외부클래스의 스테틱 변수");
+            System.out.println("Outer num = " + num + " //외부클래스의 인스턴스 변수");
+            System.out.println("Outer sNum = " + sNum + " //외부클래스의 스테틱 변수");
 
         }
     }
